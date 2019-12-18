@@ -1,0 +1,34 @@
+--------------------------------
+-- Comando utiles en git
+--Deshacer cambios en un archivo 
+git checkout -- nombre archivo
+-- subir toda una carpeta 
+git add /nombreCarpeta
+-- Agregar algunos archivos, para este ejemplo subira todas imagenes png
+git add *.png
+-- Excluir un archivo cuando se agrego
+git reset nombre archivo
+-- Agrega todos los txt de todo el proyecto
+git add "*.txt"
+-- Agrega todos los txt en el directorio actual
+git add "*.txt
+-- Agregar todos los archivos
+git add --all
+-- Agrega los archivos que listemos
+git add <lista de archivos>
+-- Agrega todos los pdfs dentro de la carpeta PDFS
+git add pdfs/*.pdf
+-- Ver cambios que hubo en un archivos
+git diff
+-- Ver cambios que de un archivo en stage
+git diff --staged
+-- Quitar los archivos de staged "memoria"
+git reset HEAD nombreArchivo
+-- revertir un commit, este es el mas suave
+git reset --soft numero de commit
+-- revertir un commit, es el mas duro
+git reset --hard numero de commit
+-- Recuperar datos en el git, muestra una lista de todo lo que hemos hecho, commits, reset etc.
+git reflog
+-- para recuperar todo los cambios copiamos en hash del commit y ejecutamos
+git reset --hard hash del commit	
