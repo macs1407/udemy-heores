@@ -1,3 +1,3 @@
 # Motivo
 
-Este repositorio sirve para la liga de las justicias
+Este repositorio sirve para probar cosas
