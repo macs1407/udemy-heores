@@ -40,3 +40,24 @@ git branch
 se pasa a la rama donde se quiere fusionar y se hace un git merge nombre-rama
 -- Borrar una rama
 git branch -d nombre-rama
+-- Creando un tag
+git tag nombreDelTag
+-- Borrar un tag
+git tag -d nombreDelTag
+-- Agregar un tag a un commit
+git tag -a "nota" 5c2732cce9aca7f9168b125f8a80f575e56376ee -m "mensaje"
+-- Colocar los archivos en un area temporal
+git stash
+-- ver la lista de los stash
+git stahs list
+-- integrar lo del stash a la rama se hace con
+git stash pop
+-- borrar un stash 
+git stash drop
+-- borrar todos los stash
+git stash clear
+-- git rebase sirve para
+* ordenar commits
+* corregir mensajes de los commits
+* unir commits
+* separar commits
