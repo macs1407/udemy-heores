@@ -32,3 +32,11 @@ git reset --hard numero de commit
 git reflog
 -- para recuperar todo los cambios copiamos en hash del commit y ejecutamos
 git reset --hard hash del commit	
+-- Crear un rama 
+git branch nombre-rama
+-- Ver las ramas
+git branch
+-- Hacer un merge
+se pasa a la rama donde se quiere fusionar y se hace un git merge nombre-rama
+-- Borrar una rama
+git branch -d nombre-rama
